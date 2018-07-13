@@ -1,0 +1,80 @@
+/*颜色*/
+@red: #ff5350;
+@lightgray: #999;
+@white: #fff;
+@blue:#57A9FF;
+@green:#4cd864;
+@gold:#ffd700;
+@purple:#f860ef;
+/*省略号*/
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.multi-ellipsis(@line:2){
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: @line;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ellipsis-2{
+  .multi-ellipsis(2);
+}
+.text-center{
+  text-align: center;
+}
+/*定位*/
+.hv-cen{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+.h-cen{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.v-cen{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.just-cont(@type:center){
+  justify-content: @type;
+}
+.align-items(@type:center){
+  align-items: @type;
+}
+/*宽高*/
+.wh(@width,@height){
+  width: @width;
+  height: @height;
+}
+
+/*间距常量*/
+@pd:.2rem;
+.mg{
+  margin: @pd;
+}
+.pd{
+  padding: @pd;
+}
+.mg-h{
+  margin: 0 @pd;
+}
+.mg-v{
+  margin: @pd 0;
+}
+.pd-h{
+  padding: 0 @pd;
+}
+.pd-v{
+  padding: @pd 0;
+}

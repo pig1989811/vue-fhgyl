@@ -1,0 +1,215 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.ttf') format('truetype'); 
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+}
+.iconfont-large{
+  font-family:"iconfont" !important;
+  font-size: 24px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.self-shopcart:before { content: "\e601"; }
+
+.self-zuo:before { content: "\e644"; }
+
+.self-you:before { content: "\e645"; }
+
+.self-qq:before { content: "\e616"; }
+
+.self-mobile:before { content: "\e621"; }
+
+.self-jifen:before { content: "\e70a"; }
+
+.self-vip:before { content: "\e636"; }
+
+.self-bianji:before { content: "\e83f"; }
+
+.self-quan:before { content: "\e63c"; }
+
+.self-yuanbao:before { content: "\e63b"; }
+
+.self-rmb:before { content: "\e62f"; }
+
+.self-yinhangka:before { content: "\e6e9"; }
+
+.self-sex:before { content: "\e62e"; }
+
+.self-delete:before { content: "\e677"; }
+
+.self-pengyouquan:before { content: "\e630"; }
+
+.self-fenghuang:before { content: "\e604"; }
+
+.self-about:before { content: "\e605"; }
+
+.self-dianhua:before { content: "\e671"; }
+
+.self-score:before { content: "\e75c"; }
+
+.self-shop:before { content: "\e60c"; }
+
+.self-qiche:before { content: "\e62d"; }
+
+.self-delivery:before { content: "\e67f"; }
+
+.self-star:before { content: "\e77e"; }
+
+.self-code:before { content: "\e629"; }
+
+.self-qiye:before { content: "\e6dd"; }
+
+.self-add:before { content: "\e619"; }
+
+.self-rmb1:before { content: "\e73f"; }
+
+.self-pay:before { content: "\e606"; }
+
+.self-right:before { content: "\e701"; }
+
+.self-male:before { content: "\e623"; }
+
+.self-xiaofeiguize:before { content: "\e837"; }
+
+.self-dianfanguo:before { content: "\e61e"; }
+
+.self-edu:before { content: "\e692"; }
+
+.self-upload:before { content: "\e66f"; }
+
+.self-shenghuofuwu:before { content: "\e61f"; }
+
+.self-fabu:before { content: "\e68c"; }
+
+.self-near:before { content: "\e603"; }
+
+.self-hongbao:before { content: "\e640"; }
+
+.self-xiaofeijilu:before { content: "\e624"; }
+
+.self-fulijilu:before { content: "\e6b1"; }
+
+.self-download:before { content: "\e626"; }
+
+.self-chongzhi:before { content: "\e67a"; }
+
+.self-tiqufuli:before { content: "\e610"; }
+
+.self-tixian:before { content: "\e685"; }
+
+.self-down:before { content: "\e617"; }
+
+.self-service:before { content: "\e607"; }
+
+.self-setting:before { content: "\e60d"; }
+
+.self-mairu:before { content: "\e61a"; }
+
+.self-maichu:before { content: "\e61b"; }
+
+.self-female:before { content: "\e67e"; }
+
+.self-KTV:before { content: "\e620"; }
+
+.self-flower:before { content: "\e801"; }
+
+.self-heart:before { content: "\e822"; }
+
+.self-lock:before { content: "\e60f"; }
+
+.self-yinlianzhifu1:before { content: "\e679"; }
+
+.self-wallet:before { content: "\e615"; }
+
+.self-weixin:before { content: "\e631"; }
+
+.self-address:before { content: "\e609"; }
+
+.self-recept:before { content: "\e628"; }
+
+.self-weibo:before { content: "\e632"; }
+
+.self-libao:before { content: "\e602"; }
+
+.self-location:before { content: "\e608"; }
+
+.self-nodata:before { content: "\e637"; }
+
+.self-vip2:before { content: "\e638"; }
+
+.self-geti:before { content: "\e62c"; }
+
+.self-seller:before { content: "\e60a"; }
+
+.self-dui:before { content: "\e61d"; }
+
+.self-dingdanguanli:before { content: "\e612"; }
+
+.self-shenfenzheng:before { content: "\e6fb"; }
+
+.self-scan:before { content: "\e63d"; }
+
+.self-shoukuan:before { content: "\e7bc"; }
+
+.self-guanbi:before { content: "\e653"; }
+
+.self-group:before { content: "\e66e"; }
+
+.self-bags:before { content: "\e625"; }
+
+.self-renzheng:before { content: "\e618"; }
+
+.self-me:before { content: "\e6c7"; }
+
+.self-crown:before { content: "\e600"; }
+
+.self-zhifubao:before { content: "\e62a"; }
+
+.self-daili:before { content: "\e643"; }
+
+.self-vip1:before { content: "\e635"; }
+
+.self-search:before { content: "\e613"; }
+
+.self-daohang:before { content: "\e634"; }
+
+.self-tel:before { content: "\e652"; }
+
+.self-shangpinguanli:before { content: "\e611"; }
+
+.self-zhuanyi:before { content: "\e650"; }
+
+.self-home:before { content: "\e63f"; }
+
+.self-qrcode:before { content: "\e6e8"; }
+
+.self-tiqulishi:before { content: "\e627"; }
+
+.self-zhuanchu:before { content: "\e639"; }
+
+.self-zhuanru:before { content: "\e63a"; }
+
+.self-weixinzhifu:before { content: "\e61c"; }
+
+.self-noorder:before { content: "\e60b"; }
+
+.self-hebing:before { content: "\e614"; }
+
+.self-ruanjian:before { content: "\e663"; }
+
+.self-x:before { content: "\e633"; }
+
+.self-success:before { content: "\e60e"; }
+
+.self-gengxin:before { content: "\e62b"; }
+
+.self-huazhuangpin:before { content: "\e622"; }
+
+.self-announce:before { content: "\e63e"; }
